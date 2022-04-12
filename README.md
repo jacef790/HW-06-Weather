@@ -13,4 +13,9 @@ js complete
 local storage working
 search function working
 
-![weather app](Weather.gif)
+
+WORKS WHEN OPEN ON BROWSER BUT NOT ON GITHUB PAGES. Unsure why!
+
+Link-
+
+![weather.gif](./assets/Weather.gif)

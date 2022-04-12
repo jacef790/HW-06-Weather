@@ -43,6 +43,7 @@ function showCityList(cityList) {
     // Save to local storage
 
 function updateCityList(currentCityName) {  
+    cityList.indexOf(currentCityName) === -1 ? cityList.push(currentCityName):
     localStorage.setItem("cityList", JSON.stringify(cityList)); 
     showCityList(cityList);
 }
@@ -78,7 +79,7 @@ function search(varLat, varLon, currentCityName) {
         showWeather(weather);
       })
       .catch(function (error) {
-        console.error(error);
+        // console.error(error);
       });
   }
 
